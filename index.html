@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Dragon Ball</title>
+
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/estilos.css">
+    <link rel="stylesheet" href="/src/css/responsivo.css">
+    
+</head>
+
+
+<body> 
+    <style>
+        @font-face {
+           font-family:'love' ;
+           src: url(/src/Saiyan-Sans.ttf) format('truetype'),url(/src/Saiyan-Sans\ Left\ Oblique.ttf ) format(truetype), url(/src/Saiyan-Sans\ Right\ Oblique.ttf) format(truetype);
+           font-weight: normal;
+           font-style: normal;
+        }
+        
+        h1 {
+           font-family: 'love';
+           font-size: 60px;
+           -webkit-text-stroke-color: black;
+           -webkit-text-stroke-width: 0.5px;
+        }
+
+        h2 {
+            font-family: 'love';
+            font-size: 80px;
+            -webkit-text-stroke-color: black;
+            -webkit-text-stroke-width: 0.5px;
+            border-bottom: 3px solid coral;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            
+        }
+
+             
+   </style>
+    <header class="cabecalho">
+    <img class="Logo" src="/src/60a96199afa8469b7c3c46810ed86816.png" height="200"alt="Logo dbz">
+    </header>
+
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem" id="goku" data-name="Goku">
+                    <img src="./src/imagens/Goku card.jpg" alt="Personagem Goku">
+                </li>
+                <li class="personagem" id="vegeta" data-name="Vegeta">                    
+                    <img src="./src/imagens/Vegeta card.jpg" alt="Personagem Vegeta">                    
+                </li>
+                <li class="personagem" id="gohan" data-name="Gohan">
+                    <img src="./src/imagens/gohan card.jpg" alt="Personagem Gohan">
+                </li>
+                <li class="personagem" id="boo" data-name="Boo">
+                    <img src="./src/imagens/Boo card.jpg"  alt="Personagem Kid boo "> 
+                </li>
+                <li class="personagem" id="cell" data-name="Cell"> 
+                    <img src="./src/imagens/Cell card.jpg" alt="Personagem Cell">
+                </li>
+                <li class="personagem" id="trunks" data-name="Trunks">
+                    <img src="./src/imagens/Trunks card.jpg" alt="Personagem Trunks">
+                    
+                </li>
+                <li class="personagem" id="picollo" data-name="Piccolo">
+                    <img src="./src/imagens/Picollo card.jpg" alt="Personagem Piccolo">
+                </li>
+                <li class="personagem" id="freeza" data-name="Freeza">
+                    <img src="./src/imagens/Freeza card.jpg" alt="Personagem Freeza">
+                </li>                
+            </ul>
+        </section>
+        <section class="selecionado"></section>
+           <img class="personagem-grande" src= "src/imagens/Goku boneco.png" alt="goku boneco">
+
+           <div class="informacoes-personagem">
+            <h2 class="nome-personagem" id="nome-personagem">Goku</h2>
+            <p class="descricao-personagem" id="descricao-personagem"> Personagem princial do anime, ama lutar e sempre está pronto pra um desafio
+            </p>  
+
+
+
+        
+           </div>
+
+
+
+
+
+    </main>  
+    <script src="./src/js/index.js"></script>    
+</body>
+</html>

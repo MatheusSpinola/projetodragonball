@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+    color:gold;
+    letter-spacing: 5px;
+}
+
+body::before{
+    content: "";
+    background-image: url(../imagens/dragon-ball-z-abertura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 190%;  
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+
+}  
+
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.selecao-de-personagens{
+    display: flex;
+    align-items: center;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.selecao-de-personagens .lista-de-personagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+.selecao-de-personagens .personagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;   
+}
+
+.selecao-de-personagens .personagens .titulo {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 3px solid coral;
+    width: 100%;
+}
+
+.lista-de-personagens .personagem
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.personagem-selecionado{
+    text-align: center; 
+    max-height: 530px;  
+    
+}
+
+.personagem-selecionado .personagem-grande{
+    width: 930px;
+    height: 930px;
+
+}
+
+.lista-de-personagens .selecionado{
+    box-shadow: 0px 0px 24px 5px red;
+    
+}
+
+
+
+
+
+#goku {
+    border-top: outset coral 5px;
+    border-left: outset coral 5px;
+    border-right: outset coral 5px;
+    border-bottom: outset coral 5px ;
+}
+#vegeta {
+    border-top: outset coral 5px;
+    border-left: outset coral 5px;
+    border-right: outset coral 5px;
+    border-bottom: outset coral 5px ;
+}
+#gohan {
+    border-top: outset coral 5px;
+    border-left: outset coral 5px;
+    border-right: outset coral 5px;
+    border-bottom: outset coral 5px ;
+}
+#boo {
+    border-top: outset coral 5px;
+    border-left: outset coral 5px;
+    border-right: outset coral 5px;
+    border-bottom: outset coral 5px ;
+}
+#cell{
+    border-top: outset coral 5px;
+    border-left: outset coral 5px;
+    border-right: outset coral 5px;
+    border-bottom: outset coral 5px ;
+}
+#picollo{
+    border-top: outset coral 5px;
+    border-left: outset coral 5px;
+    border-right: outset coral 5px;
+    border-bottom: outset coral 5px ;
+}
+#freeza{
+    border-top: outset coral 5px;
+    border-left: outset coral 5px;
+    border-right: outset coral 5px;
+    border-bottom: outset coral 5px ;
+}
+#trunks{
+    border-top: outset coral 5px;
+    border-left: outset coral 5px;
+    border-right: outset coral 5px;
+    border-bottom: outset coral 5px ;
+}
+
+p {
+    color: aliceblue;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+    
+    
+}
